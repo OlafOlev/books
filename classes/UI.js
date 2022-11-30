@@ -5,6 +5,7 @@ class UI{
         this.isbn = document.getElementById("isbn#")*/
         this.table = document.querySelector("#bookTable")
     }
+
     addBook(Book){
         const row = this.table.insertRow(-1);
         const cell1 = row.insertCell(0);

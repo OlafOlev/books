@@ -33,6 +33,7 @@ function deleteBook(event) {
         }
     }
 }
+
 function getBooks() {
     let books = LS.getBook('books')
     if (books !== null) {
